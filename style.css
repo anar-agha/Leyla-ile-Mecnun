@@ -1,13 +1,14 @@
 body{
-    background-color: rgb(250, 238, 183);
+    background-color: #E5DADA;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 h1, h2, h3, h4, h5, h6 {
-  color: navy;
+  color: #02040F;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p{
   font-size: 18px;
+  color: #002642;
 }
 
 .my-first-par{
@@ -31,3 +32,23 @@ h1 {
   display: block;
   width: 25%;
 }
+
+/* Dark mode */
+
+body.dark{
+  background-color: #0B3954;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6 {
+color: #FF6663;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body.dark p{
+font-size: 18px;
+color: #FEFFFE;
+}
+
+body.dark ol, body.dark a, body.dark ul{
+  color: antiquewhite;
+}
+
