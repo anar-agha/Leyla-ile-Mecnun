@@ -4,10 +4,10 @@
     <title>Leyla ile Mecnun dizisi</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
+  <body id="container" class="dark">
     <a id="sayfaBasi"></a>
     <header id="header">
-      
+      <button onclick="switchMode()">Switch</button>
       <h1 class="large-font"><img
         src="https://upload.wikimedia.org/wikipedia/tr/thumb/d/d9/Leyla-ile-mecnun.png/250px-Leyla-ile-mecnun.png"
         alt="Dizinin logosu"
@@ -295,7 +295,13 @@
     </main>
     <footer>
       <a href="#sayfaBasi">Başa dön</a>
-      <h4>Designed by <a href="About-us.html">Aga</a></h4>
+      <h4>&copy 2020 - Designed by <a href="About-us.html">Agha</a></h4>
     </footer>
+
+    <script>
+      function switchMode(){
+        document.getElementById('container').classList.toggle('dark');
+      }
+    </script>
   </body>
 </html>

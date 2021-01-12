@@ -1,17 +1,29 @@
-body{
-    background-color: #E5DADA;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+body {
+  background-color: #e5dada;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-  color: #02040F;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+
+body button{
+  position: fixed;
+  top: 10px;
+  right: 10px;
 }
-p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #02040f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p {
   font-size: 18px;
   color: #002642;
 }
 
-.my-first-par{
+.my-first-par {
   font-weight: 600;
   text-align: center;
 }
@@ -35,20 +47,30 @@ h1 {
 
 /* Dark mode */
 
-body.dark{
-  background-color: #0B3954;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6 {
-color: #FF6663;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-body.dark p{
-font-size: 18px;
-color: #FEFFFE;
+body.dark {
+  background-color: #0b3954;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-body.dark ol, body.dark a, body.dark ul{
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6 {
+  color: #ff6663;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body.dark p {
+  font-size: 18px;
+  color: #fefffe;
+}
+
+body.dark ol,
+body.dark a,
+body.dark ul {
   color: antiquewhite;
 }
+
 
