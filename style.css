@@ -32,6 +32,16 @@ p {
   color: red;
 }
 
+.red~ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.red~ul li{
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
 .large-font {
   font-size: 45px;
 }
